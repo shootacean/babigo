@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "main": "./example.js",
+  "scripts": {
+    "start": "node src/example.js",
+    "format": "prettier --write './src/**/*.{js,jsx,ts,tsx,json}'",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "dependencies": {
+    "@koozaki/romaji-conv": "^2.0.17"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "prettier": "^2.6.2"
+  },
+  "volta": {
+    "node": "16.14.2"
+  }
+}
