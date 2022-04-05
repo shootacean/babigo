@@ -1,8 +1,8 @@
 {
   "type": "module",
-  "main": "./example.js",
+  "main": "./src/main.js",
   "scripts": {
-    "start": "node src/example.js",
+    "start": "node src/main.js",
     "format": "prettier --write './src/**/*.{js,jsx,ts,tsx,json}'",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
